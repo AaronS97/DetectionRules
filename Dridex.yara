@@ -1,9 +1,9 @@
 rule Dridex {
     meta: 
-        Author: "Aaron S." 
-        Date Created: "4 Jul 2022"
-        Version: "1.0"
-        Description: "Simple rule for detecting dridex malware EXE/DLL"
+        Author = "Aaron S." 
+        Date Created = "4 Jul 2022"
+        Version = "1.0"
+        Description = "Simple rule for detecting dridex malware EXE/DLL"
 
     strings:
         $pe_magic_num = "MZ"
