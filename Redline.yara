@@ -2,10 +2,10 @@ import "hash"
 
 rule Redline {
     meta: 
-        Author: "Aaron S." 
-        Date Created: "19 Aug 2022"
-        Version: "1.0"
-        Description: "Simple rule for detecting Redline stealer malware"
+        Author = "Aaron S." 
+        Date Created = "19 Aug 2022"
+        Version = "1.0"
+        Description = "Simple rule for detecting Redline stealer malware"
 
     strings:
         $pe_magic_num = "MZ"
