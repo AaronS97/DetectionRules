@@ -1,7 +1,7 @@
 rule Dridex {
     meta: 
         Author = "Aaron S." 
-        Date Created = "4 Jul 2022"
+        Date_Created = "4 Jul 2022"
         Version = "1.0"
         Description = "Simple rule for detecting dridex malware EXE/DLL"
 

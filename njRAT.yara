@@ -1,7 +1,7 @@
 rule njRAT {
     meta: 
         Author = "Aaron S." 
-        Date Created = "7 Oct 2022"
+        Date_Created = "7 Oct 2022"
         Version = "1.0"
         Description = "Simple rule for detecting njRAT (Bladabindi) malware"
 
